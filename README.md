@@ -10,4 +10,4 @@ Classwork for Tech Talent South Full Stack course
 
 [Week 1 - HTML - Favorite Restaurants Assignment](/html_basics/favorite_restaurants_assignment/index.html)
 
-[Week 1 - HTML - Résumé Assignment](/html_basics/resume_assignment/index.html)
+[Week 1 - HTML - Résumé Assignment](https://borkstick.github.io/html-resume/)
