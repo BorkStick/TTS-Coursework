@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap");
+
 body {
   background-image: url("https://techcrunch.com/wp-content/uploads/2014/06/babygif.gif?w=200");
-  background-color: #282a36;
+  background-color: hsl(231, 15%, 18%);
   color: white;
 }
 h1 {
+  font-family: "IBM Plex Mono", monospace;
   color: #50fa7b;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   text-decoration: underline;
 }
