@@ -4,9 +4,10 @@ body {
   color: white;
 }
 h1 {
-  color: #ff5555;
+  color: #50fa7b;
   font-size: 40px;
   text-align: center;
+  text-decoration: underline;
 }
 
 /* comment goes here */
@@ -41,7 +42,7 @@ a:active {
 .big-text {
   font-weight: bold;
   font-size: 48px;
-  color: #50fa7b;
+  color: #bd93f9;
   padding: 16px;
   font-size: 72px;
 }
@@ -59,9 +60,9 @@ div p {
   border-style: solid;
   border-color: #ff5555;
   border-width: 10px;
-  margin: 60px;
+  margin: 60px 60px 10px 60px;
   padding: 20px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 
 /* div,
@@ -72,4 +73,16 @@ p {
 .margins {
   background-color: #6272a4;
   margin: 50px 30px 50px 80px;
+}
+
+div.fixed {
+  padding: 10px;
+  background-color: #44475a;
+  border-style: solid;
+  border-color: #ff5555;
+  border-width: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 150px;
 }
