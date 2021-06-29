@@ -17,3 +17,5 @@ Classwork for the Tech Talent South Full Stack course
 [Week 1 - HTML - Résumé Assignment](https://borkstick.github.io/html-resume/)
 
 ### Week 2
+
+[CSS Test](/html_basics/Day%205/index.html)
