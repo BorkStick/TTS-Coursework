@@ -15,6 +15,7 @@ Classwork for the Tech Talent South Full Stack course
 ### Week 2
 
 [CSS 1](html_basics/Day_5-css_1/index.html)
+
 [CSS 2](html_basics/Day_6-css_2/index.html)
 
 ## Homework
