@@ -10,9 +10,12 @@ Classwork for the Tech Talent South Full Stack course
 
 ### Week 1
 
+[HTML](/html_basics/Day_4-html/travel_site/index.html)
+
 ### Week 2
 
-[CSS Test](html_basics/Day%205/index.html)
+[CSS 1](html_basics/Day_5-css_1/index.html)
+[CSS 2](html_basics/Day_6-css_2/index.html)
 
 ## Homework
 
@@ -20,7 +23,7 @@ Classwork for the Tech Talent South Full Stack course
 
 [test](/html_test/index.html)
 
-[Week 1 - HTML - Favorite Restaurants Assignment](/html_basics/favorite_restaurants_assignment/index.html)
+[Week 1 - HTML - Favorite Restaurants Assignment](/html_basics/Day_4-html/favorite_restaurants_assignment/index.html)
 
 [Week 1 - HTML - Résumé Assignment](https://borkstick.github.io/html-resume/)
 
