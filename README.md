@@ -22,7 +22,7 @@ Classwork for the Tech Talent South Full Stack course
 
 ### Week 1
 
-[test](/html_test/index.html)
+[git test](/html_basics/Day_2-git/git_test/index.html)
 
 [Week 1 - HTML - Favorite Restaurants Assignment](/html_basics/Day_4-html/favorite_restaurants_assignment/index.html)
 
