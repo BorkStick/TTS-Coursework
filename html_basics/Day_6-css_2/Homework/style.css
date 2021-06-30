@@ -16,6 +16,9 @@
   --purple: #bd93f9;
 }
 
+* {
+  margin: 0;
+}
 /* header / nav stuff */
 
 /* nav stuff */
@@ -40,7 +43,7 @@ header {
 
 nav {
   float: right;
-  padding: 5px;
+  padding: 10px;
 }
 
 .logo img {
@@ -64,15 +67,9 @@ nav ul li a {
   color: var(--green);
 }
 
-#menu-icon {
-  display: hidden;
-  width: 40px;
-  height: 40px;
-  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ)
-    center;
-  background-size: contain;
+#cart-box {
+  float: left;
 }
-
 .cart-icon {
   color: white;
 }
@@ -86,10 +83,6 @@ nav ul li a {
   a:active,
   a:visited {
     color: white;
-  }
-
-  #menu-icon.logo {
-    imagheight: px;
   }
 
   nav ul,
@@ -209,6 +202,7 @@ li a:hover,
 }
 .hero h1 {
   display: flex;
+  padding-top: 500px;
   justify-content: center;
   color: white;
   background-color: var(--base03);
