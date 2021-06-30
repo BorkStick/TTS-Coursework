@@ -151,7 +151,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #0088ce;
+  background-color: var(--purple);
 }
 
 @media only screen and (max-width: 767px) {
@@ -207,7 +207,12 @@ li a:hover,
     text-align: center;
   }
 }
-
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: var(--base03);
+}
 .hero img {
   max-width: 100%;
 }

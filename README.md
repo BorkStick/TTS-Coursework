@@ -29,3 +29,5 @@ Classwork for the Tech Talent South Full Stack course
 [Week 1 - HTML - Résumé Assignment](https://borkstick.github.io/html-resume/)
 
 ### Week 2
+
+[Week 2- HTML/CSS Multi-Page Lab ](/html_basics/Day_6-css_2/Homework/index.htmlhtml_basics/Day_6-css_2/Homework/index.html)
