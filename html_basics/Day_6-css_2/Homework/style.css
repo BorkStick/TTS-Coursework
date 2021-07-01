@@ -98,15 +98,6 @@ nav ul li a {
     width: 100%;
   }
 
-  nav ul li {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 20px 0 20px 0;
-    background-color: var(--red);
-    border-bottom: 1px solid #fff;
-  }
-
   /*This makes sure the nav menu opens up */
   nav:hover ul {
     display: block;
@@ -141,9 +132,6 @@ li a:hover,
   background-color: var(--purple);
 }
 
-
-
-
 /*CSS styles for mobile*/
 @media only screen and (max-width: 480px) {
   .boxes {
@@ -154,8 +142,6 @@ li a:hover,
     color: white;
   }
 }
-
-
 
 .hero h1 {
   display: flex;
@@ -201,4 +187,17 @@ footer {
 
 .footer-flex {
   justify-content: center;
+}
+
+.rotate:active {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
