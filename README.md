@@ -30,4 +30,9 @@ Classwork for the Tech Talent South Full Stack course
 
 ### Week 2
 
-[Week 2- HTML/CSS Multi-Page Lab ](/html_basics/Day_6-css_2/Homework/index.html)
+[Week 2- HTML/CSS Multi-Page Lab](/html_basics/Day_6-css_2/Homework/index.html)
+
+[Week 2- If Statements](/html_basics/Day_7-js/Homework/If_statements/index.html)
+
+[Week 2- Loops](/html_basics/Day_7-js/Homework/loops/index.html)
+
