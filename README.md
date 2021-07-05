@@ -38,3 +38,5 @@ Classwork for the Tech Talent South Full Stack course
 
 [Week 2- Bootstrap Practice](/html_basics/Day_8-bootstrap/Homework/bootstrap_practice/index.html)
 
+[Week 2- Bootstrap Team Assingment](html_basics/Day_8-bootstrap/Homework/bootstrap_team_assignment/index.html)
+
