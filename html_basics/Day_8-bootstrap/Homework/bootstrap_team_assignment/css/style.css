@@ -1,9 +1,8 @@
-.navbar-test {
-    background-color: black;
-}
-
 .navbar-dark {
     color: white;
+}
+.navbar-test {
+    background-color: black;
 }
 .navbar-brand img {
     max-width: 100%;
@@ -15,3 +14,4 @@
 .btn {
     background-color: #E32526;
 }
+
