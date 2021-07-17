@@ -35,13 +35,15 @@ function addTodo(todo) {
 
         todoElement.innerText = todoText
 
+        //toggle completed class to todo element on click 
+        todoElement.addEventListener('click', () => todoElement.classList.toggle('completed'))
 
-    //remove item when todo element is right cliked  
-    todoElement.addEventListener('contextmenu', (e) => {
-        // disable the right click menue from poping up 
-        e.preventDefault()
-        todoElement.remove()
-    })
+        //remove item when todo element is right cliked  
+        todoElement.addEventListener('contextmenu', (e) => {
+            // disable the right click menue from poping up 
+            e.preventDefault()
+            todoElement.remove()
+        })
 
         // add input text to dom 
         todoUL.appendChild(todoElement)
