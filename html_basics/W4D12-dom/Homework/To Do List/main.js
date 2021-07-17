@@ -42,7 +42,12 @@ function addTodo(todo) {
         todoElement.addEventListener('contextmenu', (e) => {
             // disable the right click menue from poping up 
             e.preventDefault()
-            todoElement.remove()
+            
+            //remove item after 1 second
+            setInterval(function () {
+                todoElement.remove()
+            }, 1000);
+
         })
 
         // add input text to dom 
