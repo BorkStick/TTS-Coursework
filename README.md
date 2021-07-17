@@ -45,4 +45,4 @@ Classwork for the Tech Talent South Full Stack course
 
 ### Week 4
 
-[Week 4 - Todo List](/html_basics/W4D12-dom/Homework/To%20Do%20List/index.html)
+[Week 4 - Todo List](https://borkstick.github.io/TTS-Coursework/html_basics/W4D12-dom/Homework/To%20Do%20List/index.html)
