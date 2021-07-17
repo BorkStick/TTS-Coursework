@@ -36,17 +36,21 @@ function addTodo(todo) {
         todoElement.innerText = todoText
 
         //toggle completed class to todo element on click 
-        todoElement.addEventListener('click', () => todoElement.classList.toggle('completed'))
+        todoElement.addEventListener('click', () => {
+            todoElement.classList.toggle('completed')
+            console.log("Toggle Complete");
+        })
 
         //remove item when todo element is right cliked  
         todoElement.addEventListener('contextmenu', (e) => {
             // disable the right click menue from poping up 
             e.preventDefault()
-
+            console.log("Delete Clicked");
             //remove item after 1 second
             todoElement.classList.toggle('completed')
             setInterval(function () {
                 todoElement.remove()
+                console.log("Deleted");
             }, 1000);
 
         })

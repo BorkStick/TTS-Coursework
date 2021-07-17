@@ -40,3 +40,9 @@ Classwork for the Tech Talent South Full Stack course
 
 [Week 2- Bootstrap Team Assingment](html_basics/Day_8-bootstrap/Homework/bootstrap_team_assignment/index.html)
 
+
+### Week 3
+
+### Week 4
+
+[Week 4 - Todo List](/html_basics/W4D12-dom/Homework/To%20Do%20List/index.html)
