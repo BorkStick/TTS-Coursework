@@ -35,6 +35,14 @@ function addTodo(todo) {
 
         todoElement.innerText = todoText
 
+
+    //remove item when todo element is right cliked  
+    todoElement.addEventListener('contextmenu', (e) => {
+        // disable the right click menue from poping up 
+        e.preventDefault()
+        todoElement.remove()
+    })
+
         // add input text to dom 
         todoUL.appendChild(todoElement)
         // clear the input box after todo element added to list
