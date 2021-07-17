@@ -42,8 +42,9 @@ function addTodo(todo) {
         todoElement.addEventListener('contextmenu', (e) => {
             // disable the right click menue from poping up 
             e.preventDefault()
-            
+
             //remove item after 1 second
+            todoElement.classList.toggle('completed')
             setInterval(function () {
                 todoElement.remove()
             }, 1000);
