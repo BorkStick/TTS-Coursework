@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="952ec017-4a5e-4941-83d3-c8c2b48da3e0" name="Default Changelist" comment="working on homework">
-      <change beforePath="$PROJECT_DIR$/src/W5D15Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/W5D15Homework.java" afterDir="false" />
-    </list>
+    <list default="true" id="952ec017-4a5e-4941-83d3-c8c2b48da3e0" name="Default Changelist" comment="working on homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626825680122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working on homework">
+      <created>1626832024513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626832024513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
