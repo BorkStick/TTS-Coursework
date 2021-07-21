@@ -31,7 +31,16 @@ public class W5D15Homework {
         System.out.println(test);
         System.out.println("radius " + radius);
         System.out.println(thisIsCamelCase);
-
+        //System.out.println(b);
 
     }
+
+
 }
+
+//public class Example
+//{
+//    static int a; //static variable
+//    int b;        //instance variable
+//    System.out.println(a);
+//}
