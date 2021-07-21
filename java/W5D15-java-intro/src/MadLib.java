@@ -22,6 +22,7 @@ public class MadLib {
         String number = userInput.nextLine();
         System.out.println("Enter your name");
         String yourName = userInput.nextLine();
+        String test = userInput.nextLine();
 
         //Dear name,
         //
