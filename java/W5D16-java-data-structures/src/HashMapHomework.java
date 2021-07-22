@@ -1,5 +1,7 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 //You are a car dealer - create a hash map of vehicles:
 //
 //The model is the Key, the make is the Value.
@@ -20,6 +22,7 @@ public class HashMapHomework {
         vehicle.put("Mitsubishi", "Lancer Evo IV");
         vehicle.put("Honda", "Civic Type-R");
         vehicle.put("Honda", "S2000 (AP1)");
+
 
 
         System.out.println("Welcome to");
