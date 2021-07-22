@@ -45,6 +45,8 @@ public class HashMapHomework {
 
         System.out.printf("I see you are interested in the %s", test);
 
+        System.out.printf("I aint got no %s's here", test);
+
 
     }
     }
