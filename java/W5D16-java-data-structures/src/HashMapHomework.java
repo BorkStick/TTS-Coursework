@@ -57,7 +57,12 @@ public class HashMapHomework {
         if (vehicle.containsKey(search)) {
             System.out.printf("Looks like we have some %s's in stock. \n", search);
             System.out.printf("Here are the avalible %s models. \n", search);
-            System.out.println(vehicle.values());
+
+            Map<String, String> filteredMap = vehicle.entrySet()
+                    .stream().filter(x -> search.equals(x.getValue()))
+                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+
+            System.out.println("Filtered map: " + filteredMap);
 
         } else {
             System.out.printf("I aint got no %s's here", search);
