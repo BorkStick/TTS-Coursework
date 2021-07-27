@@ -1,0 +1,34 @@
+{
+    "domains":  [
+        {
+            "id": 1,
+            "domainName": "google.com",
+            "url": "https://google.com",
+            "online": true
+          },
+          {
+            "id":2,
+            "domainName": "yahoo.com",
+            "url": "https://yahoo.com",
+            "online": true
+          },
+          {
+            "id":3,
+            "domainName": "bork.com",
+            "url": "https://bork.com",
+            "online": false
+          },
+          {
+            "id":4,
+            "domainName": "bork.host",
+            "url": "https://bork.host",
+            "online": false
+          },
+          {
+            "id": 5,
+            "domainName": "bork.tech",
+            "url": "https://bork.tech",
+            "online": false
+          }
+    ]
+}
