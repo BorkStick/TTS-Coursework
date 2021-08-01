@@ -5,7 +5,7 @@
    .then((json) => console.log(json));
   
 
-
+// what the fetch should be seeing
 var domains = [
   {
     id: 01,
@@ -51,3 +51,5 @@ for(var i = 0;i < domains.length; i++){
   output += '<li class="list-group-item">'+ " <b>Domain:</b> "+ domains[i].domainName + "<br>" + " <b>URL:</b> " + '<a href="'+domains[i].url+'">'+domains[i].url+'</a>' + "<br>" + " <b>Online:</b> "+ '<button type="button" class="btn btn-secondary">'+ domains[i].online +'</button>' +'</li>';
 }
 document.getElementById("domains").innerHTML = output;
+
+// change offline / online status colors depending on status
