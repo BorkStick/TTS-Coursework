@@ -1,9 +1,9 @@
 // bring in json from external api 
  fetch('domains.json')
    .then((response) => response.json())
-   .then((json) => domains = json)
+   .then((json) => domains = [json])
    .then((json) => console.log(json));
-
+  
 
 
 var domains = [
