@@ -5,16 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Callbacks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Callbacks</h1>
+    <div class="card text-center">
+        <div class="card-header">
+          Clock
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Hey Look A Clock</h3>
+          <h1 id="clock">00:00</h1>
+        </div>    
+      </div>
 
-    <button id="callback-btn">Click here</button>
+      <div class="card text-center">
+        <div class="card-header">
+          Button
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Button with a 5s delay</h3>
+          <button id="callback-btn">Click here</button>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          Server Status
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Check the status of <span id="domainh">DOMAIN.COM</span></h3>
+         
+             <input type="text" name="" id="domain-input" placeholder="https://domain.com" >
+             <button id="status-btn" onsubmit="getDomain()">Status</button>
+             <br>
+
+          <span id="domain" class="h5">DOMAIN.COM: </span> <span id="domain-status" class="h5 status">OFFLINE</span>
+          <br>
+          <p id="demo"></p>
+         
+        </div>
+      </div>
 
 
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 
