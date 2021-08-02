@@ -1,0 +1,15 @@
+h1 {
+    color: black;
+}
+
+.checking {
+    background-color: lightgoldenrodyellow;
+}
+.offline {
+    color: black;
+    background-color: lightcoral;
+}
+
+.online {
+    background-color: lightgreen;
+}

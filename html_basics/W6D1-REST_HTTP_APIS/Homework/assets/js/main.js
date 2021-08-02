@@ -48,8 +48,13 @@ domain = JSON.stringify(domains)
 var output = '';
 for(var i = 0;i < domains.length; i++){
   console.log(domains[i].domainName);
-  output += '<li class="list-group-item">'+ " <b>Domain:</b> "+ domains[i].domainName + "<br>" + " <b>URL:</b> " + '<a href="'+domains[i].url+'">'+domains[i].url+'</a>' + "<br>" + " <b>Online:</b> "+ '<button type="button" class="btn btn-secondary">'+ domains[i].online +'</button>' +'</li>';
+  output += '<li class="list-group-item">'+ " <b>Domain:</b> "+ domains[i].domainName + "<br>" + " <b>URL:</b> " + '<a href="'+domains[i].url+'">'+domains[i].url+'</a>' + "<br>" + " <b>Online:</b> "+ '<button type="button" class="btn checking" onclick="checkSiteStatus()">'+ domains[i].online +'</button>' +'</li>';
 }
 document.getElementById("domains").innerHTML = output;
 
 // change offline / online status colors depending on status
+
+// check site button
+function checkSiteStatus(domains) {
+  console.log("Checking the site status: " + domains);
+}
