@@ -1,3 +1,5 @@
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,6 +8,11 @@ public class Main {
     if (true) {
         System.out.println("Its True");
     }
+        SwitchExample.printShirtSize('m');
+    LoopExample.forLoop();
+
     }
+
+
 
 }
