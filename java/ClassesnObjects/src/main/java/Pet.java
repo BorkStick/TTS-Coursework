@@ -11,31 +11,31 @@
 // Pet class Method
 public class Pet {
 
-        String name = "dog";
-        int age = 4;
-        String location = "";
-        String type = "";
+    private String name = "dog";
+    private int age = 4;
+    private String location = "";
+    private String type = "";
 }
 
-public class MethodUno {
+class MethodUno {
     String name = "Method Uno";
     String type = "uno";
-    int num = 1;
+    int id = 1;
 
 }
 
-public class MethodDos {
+class MethodDos {
     String name = "Method Dos";
     String type = "dos";
-    int num = 2;
+    int id = 2;
+}
+
+// Pet constructor
+public Pet(String name, int age, String location, String type) {
+
 }
 
 // MethodUno constructor
-public MethodUno() {
-
-}
-
-// MethodDos constructor
-public MethodDos() {
+public MethodUno(String name, String type, int id) {
 
 }
