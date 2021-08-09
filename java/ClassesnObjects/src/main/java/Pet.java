@@ -11,31 +11,28 @@
 // Pet class Method
 public class Pet {
 
-    private String name = "dog";
-    private int age = 4;
-    private String location = "";
-    private String type = "";
-}
+    private String name;
+    private int age;
+    private String location;
+    private String type;
 
-class MethodUno {
-    String name = "Method Uno";
-    String type = "uno";
-    int id = 1;
+    public Pet() {
 
-}
+    }
 
-class MethodDos {
-    String name = "Method Dos";
-    String type = "dos";
-    int id = 2;
-}
+    // Pet constructor
+    public Pet(String name, int age, String location, String type) {
+        this.name = name;
+        this.age = age;
+        this.location = location;
+        this.type = type;
+    }
 
-// Pet constructor
-public Pet(String name, int age, String location, String type) {
-
-}
-
-// MethodUno constructor
-public MethodUno(String name, String type, int id) {
+    public String getName(){
+        return name;
+    }
 
 }
+
+
+

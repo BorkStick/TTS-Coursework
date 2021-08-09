@@ -1,8 +1,12 @@
+package eatable;
+
+import eatable.Eatable;
+
 public class Hamburger implements Eatable {
 
     @Override
     public void getsAte() {
-        System.out.println("Hamburger has been eaten");
+        System.out.println("eatable.Hamburger has been eaten");
     }
 
     @Override

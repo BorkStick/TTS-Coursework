@@ -5,6 +5,9 @@ public class Main {
         MyImplementation implementation = new MyImplementation();
         implementation.sayHello();
 
+
+
+
         implementation.sayGoodbye();
     }
 }
