@@ -5,6 +5,7 @@
 public class Calculator {
 
 
+
     // An add method that takes in two integer numbers and adds them together the call to that method would look like this: add(int num1, int num2)
     public static void addNumbers(int x, int y) {
         System.out.println(x + y);
@@ -26,8 +27,10 @@ public class Calculator {
     }
 
     // A square method that takes in one integer and squares it: square(int num1, int num2)
-    public static void  square(int x, int y) {
-        System.out.println(x + y);
+    public static void squareNumber(int x) {
+
+        int squared = x * x;
+        System.out.println(squared);
     }
 
 }
