@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8580d9f4-44ad-47e4-9128-f3a5c0f3aad9" name="Changes" comment="W8D1: Class start">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cutable/Barber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cutable/Cutable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cutable/Director.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cutable/LineCutter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eatable/Eatable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eatable/Hamburger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eatable/Taco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cutable/Barber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cutable/Cutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cutable/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cutable/LineCutter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesnObjects/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassesnObjects/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesnObjects/src/main/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassesnObjects/src/main/java/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Eatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eatable/Eatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eatable/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eatable/Taco.java" afterDir="false" />
-    </list>
+    <list default="true" id="8580d9f4-44ad-47e4-9128-f3a5c0f3aad9" name="Changes" comment="W8D1: Class start" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

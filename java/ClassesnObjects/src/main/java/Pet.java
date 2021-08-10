@@ -11,6 +11,7 @@
 // Pet class Method
 public class Pet {
 
+
     private String name;
     private int age;
     private String location;
@@ -28,9 +29,34 @@ public class Pet {
         this.type = type;
     }
 
-    public String getName(){
+
+    public String getPetName(){
         return name;
     }
+
+    public int getPetAge() {
+        return age;
+    }
+
+    public String getPetLocation() {
+        return location;
+    }
+
+    public String getPetType() {
+        return type;
+    }
+
+
+    public static void main(String[] args) {
+        Pet pet = new Pet("dogo", 2, "The Couch", "Dog");
+        System.out.println(pet.getPetName());
+        System.out.println(pet.getPetAge());
+        System.out.println(pet.getPetLocation());
+        System.out.println(pet.getPetType());
+
+    }
+
+
 
 }
 
