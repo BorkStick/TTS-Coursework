@@ -46,6 +46,22 @@ public class Pet {
         return type;
     }
 
+    public void setPetName(String name) {
+        this.name = name;
+    }
+
+    public void setPetAge(int age) {
+        this.age = age;
+    }
+
+    public void setPetLocation(String location) {
+        this.location = location;
+    }
+
+    public void setPetType(String type) {
+        this.type = type;
+    }
+
 
     public static void main(String[] args) {
         Pet pet = new Pet("dogo", 2, "The Couch", "Dog");
