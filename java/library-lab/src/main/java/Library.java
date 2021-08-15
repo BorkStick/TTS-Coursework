@@ -18,10 +18,11 @@ public class Library {
     // borrow a book
     public void borrowBook(String title) {
         final boolean[] isInCatalog = new boolean[1];
-        libraryBooks.forEach(n -> {
-            if (n.title.equals(title)) {
-                if (!n.borrowed) {
-                    n.borrowed = true;
+        libraryBooks.forEach(x -> {
+            // check if book has been borrowed
+            if (x.title.equals(title)) {
+                if (!x.borrowed) {
+                    x.borrowed = true;
                     System.out.println(title + " has been borrowed.");
                 } else System.out.println(title + " is already borrowed.");
                 isInCatalog[0] = true;
@@ -35,10 +36,11 @@ public class Library {
     // return a book
     public void returnBook(String title) {
         final boolean[] isInCatalog = new boolean[1];
-        libraryBooks.forEach(n -> {
-            if (n.title.equals(title)) {
-                if (n.borrowed) {
-                    n.borrowed = false;
+        libraryBooks.forEach(x -> {
+            //check if book has been returned
+            if (x.title.equals(title)) {
+                if (x.borrowed) {
+                    x.borrowed = false;
                     System.out.println(title + " has been returned.");
                 } else System.out.println(title + " is already checked in.");
                 isInCatalog[0] = true;
@@ -56,8 +58,8 @@ public class Library {
             // make array with books
         } else {
             ArrayList<String> availableBooks = new ArrayList<>();
-            libraryBooks.forEach(n -> {
-                if (!n.borrowed) availableBooks.add(n.title);
+            libraryBooks.forEach(x -> {
+                if (!x.borrowed) availableBooks.add(x.title);
             });
             System.out.println(availableBooks);
         };
