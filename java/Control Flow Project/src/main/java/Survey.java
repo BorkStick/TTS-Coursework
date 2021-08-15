@@ -18,5 +18,21 @@
 //Lottery numbers: 4, 17, 15, 52, 26  Magic ball: 22
 //
 
-public class OutputTime {
+import java.util.Scanner;
+
+
+public class Survey {
+
+    public static boolean carIsRed;
+    public static String favoritePet;
+    public static int petAge;
+    public static int luckyNum;
+    public static int sportsBall;
+    public static boolean hasSportsBall;
+    public static int modelYear;
+    public static String actor;
+    public static int randNum;
+
+
+
 }

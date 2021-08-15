@@ -1,5 +1,81 @@
+import java.util.ArrayList;
+
 public class Library {
     // Add the missing implementation to this class
+    String address;
+    ArrayList<Book> libraryBooks = new ArrayList<Book>();
+
+    // shows library address
+    public Library(String libraryAddress) {
+        address = libraryAddress;
+    }
+
+    // add a book
+    public void addBook(Book book) {
+        libraryBooks.add(book);
+    }
+
+    // borrow a book
+    public void borrowBook(String title) {
+        final boolean[] isInCatalog = new boolean[1];
+        libraryBooks.forEach(n -> {
+            if (n.title.equals(title)) {
+                if (!n.borrowed) {
+                    n.borrowed = true;
+                    System.out.println(title + " has been borrowed.");
+                } else System.out.println(title + " is already borrowed.");
+                isInCatalog[0] = true;
+            }
+            ;
+        });
+        if (!isInCatalog[0]) System.out.println(title + " is not in our catalog");
+    }
+
+
+    // return a book
+    public void returnBook(String title) {
+        final boolean[] isInCatalog = new boolean[1];
+        libraryBooks.forEach(n -> {
+            if (n.title.equals(title)) {
+                if (n.borrowed) {
+                    n.borrowed = false;
+                    System.out.println(title + " has been returned.");
+                } else System.out.println(title + " is already checked in.");
+                isInCatalog[0] = true;
+            }
+            ;
+        });
+        if (!isInCatalog[0]) System.out.println(title + " is not in our catalog");
+    }
+
+    // show available books
+    public void printAvailableBooks() {
+        // if book is not in list
+        if (libraryBooks.isEmpty()) {
+            System.out.println("The book you are looking for is currently unavailable.");
+            // make array with books
+        } else {
+            ArrayList<String> availableBooks = new ArrayList<>();
+            libraryBooks.forEach(n -> {
+                if (!n.borrowed) availableBooks.add(n.title);
+            });
+            System.out.println(availableBooks);
+        };
+    }
+
+    // show library hours
+    public static void printOpeningHours() {
+        System.out.println("Open daily from 9am to 5pm");
+    }
+
+    // show library address
+    public void printAddress() {
+        System.out.println(this.address);
+    }
+
+
+
+
 
     public static void main(String[] args) {
         // Create two libraries
