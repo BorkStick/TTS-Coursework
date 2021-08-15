@@ -17,7 +17,7 @@ public class Library {
 
     // borrow a book
     public void borrowBook(String title) {
-        final boolean[] isInCatalog = new boolean[1];
+        final boolean[] isInLibrary = new boolean[1];
         libraryBooks.forEach(x -> {
             // check if book has been borrowed
             if (x.title.equals(title)) {
@@ -25,17 +25,17 @@ public class Library {
                     x.borrowed = true;
                     System.out.println(title + " has been borrowed.");
                 } else System.out.println(title + " is already borrowed.");
-                isInCatalog[0] = true;
+                isInLibrary[0] = true;
             }
             ;
         });
-        if (!isInCatalog[0]) System.out.println(title + " is not in our catalog");
+        if (!isInLibrary[0]) System.out.println(title + " is not in the library");
     }
 
 
     // return a book
     public void returnBook(String title) {
-        final boolean[] isInCatalog = new boolean[1];
+        final boolean[] isInLibrary = new boolean[1];
         libraryBooks.forEach(x -> {
             //check if book has been returned
             if (x.title.equals(title)) {
@@ -43,18 +43,18 @@ public class Library {
                     x.borrowed = false;
                     System.out.println(title + " has been returned.");
                 } else System.out.println(title + " is already checked in.");
-                isInCatalog[0] = true;
+                isInLibrary[0] = true;
             }
             ;
         });
-        if (!isInCatalog[0]) System.out.println(title + " is not in our catalog");
+        if (!isInLibrary[0]) System.out.println(title + " is not in the library");
     }
 
     // show available books
     public void printAvailableBooks() {
         // if book is not in list
         if (libraryBooks.isEmpty()) {
-            System.out.println("The book you are looking for is currently unavailable.");
+            System.out.println("404 book not found");
             // make array with books
         } else {
             ArrayList<String> availableBooks = new ArrayList<>();
