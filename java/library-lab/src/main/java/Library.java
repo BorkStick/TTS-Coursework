@@ -47,6 +47,7 @@ public class Library {
             }
             ;
         });
+        // let ya know book is not here
         if (!isInLibrary[0]) System.out.println(title + " is not in the library");
     }
 
