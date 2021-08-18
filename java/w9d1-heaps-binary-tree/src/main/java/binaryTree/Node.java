@@ -1,3 +1,5 @@
+package binaryTree;
+
 public class Node {
     private int key;
     private Node leftNode;
@@ -31,5 +33,14 @@ public class Node {
 
     public void setRightNode(Node rightNode) {
         this.rightNode = rightNode;
+    }
+
+    @Override
+    public String toString() {
+        return "\nbinaryTree.Node{" +
+                "\nkey=" + key +
+                ", \nleftNode=" + leftNode +
+                ", \nrightNode=" + rightNode +
+                '}';
     }
 }

@@ -1,3 +1,5 @@
+package binaryTree;
+
 public class BinaryTree {
 
     public Node root;
@@ -7,9 +9,12 @@ public class BinaryTree {
             return new Node(key);
         } else if (key < current.getKey()) {
             current.setLeftNode(insertNode(current.getLeftNode(), key));
-        } else if (key > ) {
+        } else if (key > current.getKey()) {
             current.setRightNode(insertNode(current.getRightNode(), key));
+        } else {
+            return current;
         }
+        return current;
 
     }
 
@@ -17,4 +22,10 @@ public class BinaryTree {
         root = insertNode(root, key);
     }
 
+    @Override
+    public String toString() {
+        return "binaryTree.BinaryTree{" +
+                "root=" + root +
+                '}';
+    }
 }
