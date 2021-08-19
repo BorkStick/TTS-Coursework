@@ -1,11 +1,11 @@
 import React from 'react';
-import Movie from './Movie'
+import '../styles/Collection.css'
 
 const Collection = ({children, title}) => {
     return (
         <div>
-            <h1>Collection</h1>
-            <h2>{title}</h2>
+        
+            <h2 className="primary-subheadline">{title}</h2>
             {children}
          
         </div>

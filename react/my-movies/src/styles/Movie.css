@@ -1,0 +1,11 @@
+img {
+    width: 200px;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+}
+
+#text {
+    text-align: left;
+    padding: 0px 40px 40px 0px;
+}
