@@ -2,10 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Intro to Spring Boot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>This is a static page</h1>
-<img src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80">
-<img src="https://via.placeholder.com/400">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Intro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1 class="text-center">Intro to Spring Boot</h1>
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80">
+
+
+</div>
+
+<div class="row">
+    <img src="https://via.placeholder.com/400" class="col img-fluid">
+    <div class="col pt-5">
+        <h2>Lorem ipsum dolor</h2>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus efficitur magna, sed lacinia neque eleifend ac. Fusce consequat scelerisque risus eget mattis. In posuere suscipit rhoncus. Donec lobortis nisi tincidunt nisl imperdiet sagittis. In at sem et sem luctus blandit eget ut nibh. Phasellus vitae lobortis sapien. Sed cursus quis erat id vulputate. Integer enim diam, lobortis at dictum id, mattis id felis. Aenean eleifend cursus vestibulum. Morbi nec dolor nec enim sodales laoreet non aliquam orci. Nullam id luctus leo. Curabitur gravida, erat vel ornare elementum, mauris enim ullamcorper lectus, id viverra felis lorem eget ligula. Vivamus non sem nulla. Cras sit amet nibh magna. Vestibulum ultrices aliquet lorem, nec finibus lacus pulvinar volutpat. Ut hendrerit pretium ligula, id interdum ex fringilla non.</p>
+
+    </div>
+</div>
+
+<div class="card mx-auto" style="width: 50rem;">
+    <h2 class="">Contact</h2>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Steve Fromit">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary">Submit</a>
+    </form>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
