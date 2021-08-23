@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- Latest compiled and minified CSS -->
     <link href="../../webjars/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/standard.css" rel="stylesheet">
 </head>
 <body>
 <div th:replace="fragments/navbar :: navbar" ></div>
@@ -20,7 +21,7 @@
         <input type="text" name="blogAuthor" th:field="*{author}" />
 
         <label for="blogEntry">Blog Entry:</label>
-        <input type="text" name="blogEntry" th:field="*{blogEntry}" />
+        <textarea  class ="form-control" placeholder="Blog Entry" th:field="*{blogEntry}" > </textarea>
 
         <button type="submit" class="btn btn-success">Submit Your Blog</button>
     </form>
