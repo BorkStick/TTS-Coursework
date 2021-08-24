@@ -3,60 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <div th:replace="/fragments/styling :: head-style" ></div>
+    <div th:replace="/fragments/styling :: head-style"></div>
 
-    <title>Title</title>
+    <title>Tylor's Super Awesome Blog</title>
 </head>
 <body>
 <!--NAVBAR-->
-<div th:replace="fragments/navbar :: navbar" ></div>
+<div th:replace="fragments/navbar :: navbar"></div>
 
 <div class="container">
 
+    <div class="card" th:each="blog:${posts}">
+        <img src="http://unsplash.it/640/360?random" class="card-img-top" alt="...">
+
+        <div class="card-header">
+            <h4 class="card-title" th:text="${blog.title}">Card title</h4>
+            <p th:text="${blog.author}"/>
+        </div>
+        <div class="card-body">
 
 
-<h1> Blog post here</h1>
+            <p class="card-text" th:text="${blog.blogEntry}"></p>
 
-
-
-    <div class="row">
-        <div th:each="blog:${posts}">
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 th:text="${blog.title}"/>
-                    </div>
-                    <div class="panel-body">
-                        <p th:text="${blog.author}"/>
-                        <p th:utext="${blog.blogEntry}"> </p>
-                    </div>
-                    <div class="panel-footer">
-                        <!-- Link to Update -->
-
-
-                        <!-- Link to Show  -->
-
-
-                        <div class="card-footer">
-                            <!-- Link to Update -->
-                            <a href="#" th:href="@{blogposts/{id}(id=${blog.id})}">
-                                <button class="btn btn-light">Edit Post</button>
-                            </a>
-                            <!--  Link to Destroy -->
-                            <a href="#" th:href="@{blogposts/delete/{id}(id=${blog.id})}">
-                                <button class="btn btn-danger" type="submit">Delete Post</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="card-footer">
+            <!-- Link to Update -->
+            <a href="#" th:href="@{blogposts/{id}(id=${blog.id})}">
+                <button class="btn btn-dark">Edit Post</button>
+            </a>
+            <div class="d-grid justify-content-md-end">
+                <!--  Link to Destroy -->
+                <a href="#" th:href="@{blogposts/delete/{id}(id=${blog.id})}">
+                    <button class="btn btn-danger" type="submit">Delete Post</button>
+                </a>
             </div>
         </div>
     </div>
-
-
-
 </div>
 
-<div th:replace="/fragments/styling :: body-links" ></div>
+<div th:replace="/fragments/styling :: body-links"></div>
 </body>
 </html>
